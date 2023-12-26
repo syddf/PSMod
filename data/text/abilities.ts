@@ -1868,7 +1868,7 @@ export const AbilitiesText: {[k: string]: AbilityText} = {
 	sweetveil: {
 		name: "Sweet Veil",
 		desc: "This Pokemon and its allies cannot fall asleep, but those already asleep do not wake up immediately. This Pokemon and its allies cannot use Rest successfully or become affected by Yawn, and those previously affected will not fall asleep.",
-		shortDesc: "This Pokemon and its allies cannot fall asleep; those already asleep do not wake up.",
+		shortDesc: "This Pokemon and its allies cannot fall asleep; those already asleep do not wake up. TestServer.",
 
 		block: "  [POKEMON] can't fall asleep due to a veil of sweetness!",
 	},

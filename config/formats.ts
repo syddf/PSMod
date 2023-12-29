@@ -22,7 +22,7 @@ export const Formats: FormatList = [
 		section: "LoL Mods",
 	},
 	{
-		name: "[LoL] OU",
+		name: "[Gen 8 BDSP]LoL OU",
 		mod: 'lol',
 		ruleset: ['Standard'],
 		banlist: ['Uber', 'AG', 'Arena Trap', 'Moody', 'Sand Veil', 'Shadow Tag', 'Snow Cloak', 'King\'s Rock', 'Razor Fang', 'Baton Pass', 'Last Respects', 'Shed Tail'],

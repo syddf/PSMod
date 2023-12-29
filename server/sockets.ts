@@ -274,8 +274,8 @@ export class ServerStream extends Streams.ObjectReadWriteStream<string> {
 		disablenodestatic?: boolean,
 	}) {
 		super();
+		console.log(config.bindaddress);
 		if (!config.bindaddress) config.bindaddress = '0.0.0.0';
-
 		this.isTrustedProxyIp = config.proxyip ? IPTools.checker(config.proxyip) : () => false;
 
 		// Static HTTP server

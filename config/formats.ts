@@ -22,10 +22,17 @@ export const Formats: FormatList = [
 		section: "LoL Mods",
 	},
 	{
-		name: "[Gen 8 BDSP]LoL OU",
+		name: "[Gen LoL] OU",
+		threads: [
+			`&bullet; <a href="https://www.smogon.com/forums/threads/3693629/">BDSP OU Metagame Discussion</a>`,
+			`&bullet; <a href="https://www.smogon.com/forums/threads/3693721/">BDSP OU Sample Teams</a>`,
+			`&bullet; <a href="https://www.smogon.com/forums/threads/3696088/">BDSP OU Viability Rankings</a>`,
+		],
+
 		mod: 'lol',
-		ruleset: ['Standard'],
-		banlist: ['Uber', 'AG', 'Arena Trap', 'Moody', 'Sand Veil', 'Shadow Tag', 'Snow Cloak', 'King\'s Rock', 'Razor Fang', 'Baton Pass', 'Last Respects', 'Shed Tail'],
+		searchShow: false,
+		ruleset: ['Standard', 'Evasion Abilities Clause'],
+		banlist: ['Uber', 'Arena Trap', 'Drizzle', 'Moody', 'Shadow Tag', 'King\'s Rock', 'Razor Fang', 'Baton Pass'],
 	},
 	// S/V Singles
 	///////////////////////////////////////////////////////////////////

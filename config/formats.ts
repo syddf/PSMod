@@ -22,7 +22,7 @@ export const Formats: FormatList = [
 		section: "LoL Mods",
 	},
 	{
-		name: "[Gen 8 lol] lolOU",
+		name: "[Gen 8 lol] OU",
 		threads: [
 			`&bullet; <a href="https://www.smogon.com/forums/threads/3693629/">BDSP OU Metagame Discussion</a>`,
 			`&bullet; <a href="https://www.smogon.com/forums/threads/3693721/">BDSP OU Sample Teams</a>`,

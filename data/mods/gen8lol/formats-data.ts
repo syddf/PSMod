@@ -2,9 +2,11 @@
 export const FormatsData: {[k: string]: ModdedSpeciesFormatsData} = {
 	bulbasaur: {
 		tier: "OU",
+		isNonstandard: "GEN8LOL",
 	},
 	ivysaur: {
 		tier: "OU",
+		isNonstandard: "GEN8LOL",
 	},
 	venusaur: {
 		tier: "RU",

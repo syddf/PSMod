@@ -148,6 +148,8 @@ function eligible(dex: ModdedDex, id: ID) {
 function toGen(dex: ModdedDex, name: string): GenerationNum | undefined {
 	const pokemon = dex.species.get(name);
 	if (pokemon.isNonstandard === 'LGPE') return 7;
+	if (pokemon.isNonstandard === 'GEN8LOL') return 8;
+	if (name.endsWith('-LOL')) return undefined;
 	if (!pokemon.exists || (pokemon.isNonstandard && pokemon.isNonstandard !== 'CAP')) return undefined;
 	// CAP mons should have a gen property
 	if (pokemon.gen) return pokemon.gen as GenerationNum;

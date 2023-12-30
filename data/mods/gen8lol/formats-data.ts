@@ -12,10 +12,6 @@ export const FormatsData: {[k: string]: ModdedSpeciesFormatsData} = {
 		tier: "RU",
 		doublesTier: "DUU",
 	},
-	ahri: {
-		tier: "OU",
-		isNonstandard: "GEN8LOL",
-	},
 	arceusbug: {
 	},
 	arceusdark: {
@@ -54,5 +50,9 @@ export const FormatsData: {[k: string]: ModdedSpeciesFormatsData} = {
 	eternatuseternamax: {
 		inherit: true,
 		isNonstandard: "Past",
+	},
+	ahri: {
+		tier: "OU",
+		isNonstandard: "GEN8LOL",
 	},
 };

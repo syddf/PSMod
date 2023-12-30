@@ -19730,4 +19730,16 @@ export const Pokedex: {[speciesid: string]: SpeciesData} = {
 		eggGroups: ["Undiscovered"],
 		gen: 5,
 	},
+	ahri: {
+		num: 2000,
+		name: "Ahri-LOL",
+		types: ["Fairy"],
+		baseStats: {hp: 28, atk: 25, def: 25, spa: 45, spd: 35, spe: 40},
+		abilities: {0: "Synchronize", 1: "Trace", H: "Telepathy"},
+		heightm: 0.4,
+		weightkg: 6.6,
+		color: "White",
+		eggGroups: ["Human-Like", "Amorphous"],
+	},
 };
+

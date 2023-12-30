@@ -268,6 +268,10 @@ export const Tags: {[id: string]: TagData} = {
 		name: "LGPE",
 		genericFilter: thing => thing.isNonstandard === 'LGPE',
 	},
+	gen8lol: {
+		name: "GEN8LOL",
+		genericFilter: thing => thing.isNonstandard === 'GEN8LOL',
+	},
 	unobtainable: {
 		name: "Unobtainable",
 		genericFilter: thing => thing.isNonstandard === 'Unobtainable',

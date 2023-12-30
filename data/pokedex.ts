@@ -19732,7 +19732,7 @@ export const Pokedex: {[speciesid: string]: SpeciesData} = {
 	},
 	ahri: {
 		num: 2000,
-		name: "Ahri-LOL",
+		name: "Ahri",
 		types: ["Fairy"],
 		baseStats: {hp: 28, atk: 25, def: 25, spa: 45, spd: 35, spe: 40},
 		abilities: {0: "Synchronize", 1: "Trace", H: "Telepathy"},

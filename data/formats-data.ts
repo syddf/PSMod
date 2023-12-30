@@ -6051,7 +6051,7 @@ export const FormatsData: {[k: string]: SpeciesFormatsData} = {
 		tier: "Illegal",
 	},
 	ahri: {
-		tier: "OU",
 		isNonstandard: "GEN8LOL",
+		tier: "Illegal",
 	},
 };

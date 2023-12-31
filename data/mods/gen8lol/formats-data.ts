@@ -51,8 +51,16 @@ export const FormatsData: {[k: string]: ModdedSpeciesFormatsData} = {
 		inherit: true,
 		isNonstandard: "Past",
 	},
-	ahri: {
-		tier: "OU",
+
+	//LOLDATA
+
+	ahri:{
 		isNonstandard: "GEN8LOL",
-	},
+		tier: "OU",
+},
+	akali:{
+		isNonstandard: "GEN8LOL",
+		tier: "OU",
+},
+	//LOLDATA
 };

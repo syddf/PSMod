@@ -6050,8 +6050,15 @@ export const FormatsData: {[k: string]: SpeciesFormatsData} = {
 		isNonstandard: "Custom",
 		tier: "Illegal",
 	},
-	ahri: {
+	//LOLDATA
+
+	ahri:{
 		isNonstandard: "GEN8LOL",
-		tier: "OU",
+		tier: "Illegal",
 	},
+	akali:{
+		isNonstandard: "GEN8LOL",
+		tier: "Illegal",
+	},
+	//LOLDATA
 };

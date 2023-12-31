@@ -1,0 +1,5 @@
+{
+		learnset: {
+			earthpower: ["8M"],
+		},
+	},

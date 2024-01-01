@@ -19747,13 +19747,13 @@ export const Pokedex: {[speciesid: string]: SpeciesData} = {
 	akali:{
 	num: 2001,
 	name: "Akali",
-	types: ["Ground"],
-	baseStats: {hp: 28, atk: 25, def: 25, spa: 45, spd: 35, spe: 40},
-	abilities: {0: "Synchronize", 1: "Trace", H: "Telepathy"},
-	heightm: 0.4,
-	weightkg: 6.6,
+	types: ["Ground", "Dark"],
+	baseStats: {hp: 85, atk: 120, def: 60, spa: 120, spd: 65, spe: 100},
+	abilities: {0: "Protean", H: "Technician"},
+	heightm: 1.0,
+	weightkg: 1.0,
 	color: "White",
-	eggGroups: ["Human-Like", "Amorphous"],
+	eggGroups: ["Human-Like"],
 },
 	//LOLDATA
 

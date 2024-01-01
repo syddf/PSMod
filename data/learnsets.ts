@@ -99499,7 +99499,7 @@ export const Learnsets: {[k: string]: LearnsetData} = {
 			knockoff: ["8M"],
 			suckerpunch: ["8M"],
 			throatchop: ["8M"],
-			suckerpunch: ["8M"],
+			drainpunch: ["8M"],
 			protect: ["8M"],
 			quickattack: ["8M"],
 			appleacid: ["8M"],

@@ -39,7 +39,7 @@ movDic = {
     'dig' : '挖洞',
     'earthpower' : '大地之力',
     'rototiller' : '耕地',
-    'highhorsepower	' : '十万马力',
+    'highhorsepower' : '十万马力',
     'pursuit' : '追打',
     'taunt' : '挑衅',
     'knockoff' : '拍落',
@@ -213,7 +213,7 @@ def CreatePkmDex(name):
     movY = 220
     for mov in pkmMov:
         draw.text((70, movY + movIndx * 30), movDic[mov] + '(' + mov + ')', font=font, fill=(0, 0, 0))
-        image.paste(typeImgDic[moveTypeDic[mov]], (380, movY + movIndx * 30), typeImgDic[moveTypeDic[mov]])
+        image.paste(typeImgDic[moveTypeDic[mov]], (430, movY + movIndx * 30), typeImgDic[moveTypeDic[mov]])
         movIndx += 1
 
     position = (100, 200)

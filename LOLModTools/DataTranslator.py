@@ -1,6 +1,7 @@
 from PIL import Image
 import os
 import glob
+import shutil
 
 directory = os.getcwd()
 
@@ -80,7 +81,29 @@ def WriteFormatsData():
     WriteData(PSServerRootPath + '\\data\\formats-data.ts', baseContent)
     WriteData(PSServerRootPath + '\\data\\mods\\gen8lol\\formats-data.ts', modContent)
    
+def CopySpritesToClient():
+    fileList, folderList = traverse_files(LoLPokemonDataRootPath, 'DexData.txt')
+    content = ''
+    i = 0
+    while i < len(folderList):
+        pkmName = folderList[i]
+        frontAnimFile = LoLPokemonDataRootPath + '\\' + pkmName + '\\' + pkmName + '.gif'
+        backAnimFile = LoLPokemonDataRootPath + '\\' + pkmName + '\\' + pkmName + '-back.gif'
+        iconFile = LoLPokemonDataRootPath + '\\' + pkmName + '\\' + pkmName + '_icon.png'
+        faceFile = LoLPokemonDataRootPath + '\\' + pkmName + '\\' + pkmName + '.png'
+
+        targetFrontAnimFile = PSClientRootPath + '\\play.pokemonshowdown.com\\sprites\\ani\\' + pkmName + '.gif'
+        targetBackAnimFile = PSClientRootPath + '\\play.pokemonshowdown.com\\sprites\\ani-back\\' + pkmName + '.gif'
+        targetIconFile = PSClientRootPath + '\\play.pokemonshowdown.com\\sprites\\gen5\\' + pkmName + '_icon.png'
+        targetFaceFile = PSClientRootPath + '\\play.pokemonshowdown.com\\sprites\\gen5\\' + pkmName + '.png'
+        shutil.copy(frontAnimFile, targetFrontAnimFile)
+        shutil.copy(backAnimFile, targetBackAnimFile)
+        shutil.copy(iconFile, targetIconFile)
+        shutil.copy(faceFile, targetFaceFile)
+        i += 1
+
 
 WriteBasePokeDexData()
 WriteBaseLearnSetData()
 WriteFormatsData()
+CopySpritesToClient()

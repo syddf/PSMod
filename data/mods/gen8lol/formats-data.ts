@@ -62,6 +62,10 @@ export const FormatsData: {[k: string]: ModdedSpeciesFormatsData} = {
 		isNonstandard: "GEN8LOL",
 		tier: "OU",
 },
+	lux:{
+		isNonstandard: "GEN8LOL",
+		tier: "OU",
+},
 	syndra:{
 		isNonstandard: "GEN8LOL",
 		tier: "OU",

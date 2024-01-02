@@ -10,7 +10,9 @@ abilityDic = {
     'Protean' : '变换自如',
     'Technician' : '技术高手',
     'DarkAura' : '暗黑气场',
-    'Levitate' : '飘浮'
+    'Levitate' : '飘浮',
+    'Simple' : '单纯',
+    'Illuminate': '发光'
 }
 
 movDic = {
@@ -70,7 +72,23 @@ movDic = {
     'speedswap' : '速度互换',
     'skillswap' : '特性互换',
     'imprison' : '封印',
-    'painsplit' : '分担痛楚'
+    'painsplit' : '分担痛楚',
+    'psybeam' : '幻象光线',
+    'hyperbeam' : '破坏光线',
+    'aurorabeam' : '极光束',
+    'solarbeam' : '日光束',
+    'confuseray' : '奇异之光',
+    'lusterpurge' : '洁净光芒',
+    'signalbeam' : '信号光束',
+    'mirrorshot' : '镜光射击',
+    'flashcannon' : '加农光炮',
+    'chargebeam' : '充电光束',
+    'simplebeam' : '单纯光束',
+    'auroraveil' : '极光幕',
+    'moongeistbeam' : '暗影之光',
+    'steelbeam' : '铁蹄光线',
+    'partingshot' : '抛下狠话',
+    'foulplay' : '欺诈',
 }
 
 directory = os.getcwd()
@@ -137,7 +155,7 @@ def CreatePkmDex(name):
     pkmMov = []
 
     for line in movlines:
-        if name in line:
+        if ('\t' + name + ':') in line:
             findPKM = 1
         if '{' in line:
             if(findPKM):
@@ -156,7 +174,7 @@ def CreatePkmDex(name):
     findPKM = 0
     count = 0
     for line in dexlines:
-        if name in line:
+        if ('\t' + name + ':') in line:
             findPKM = 1
         if '{' in line:
             if(findPKM):
@@ -195,6 +213,7 @@ def CreatePkmDex(name):
                     i += 1
             if(result[0] == 'abilities'):
                 result = line.replace(' ','').replace('"','').replace('\r','').replace('\t','').replace('\n','').replace('{','').replace('}','')[:-1].replace(':',',').split(",")
+                print(result)
                 i = 0
                 while i < len(result):
                     if result[i] == '0':

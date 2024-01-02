@@ -1,0 +1,12 @@
+{
+	num: 2013,
+	name: "Janna",
+	types: ["Flying", "Water"],
+	baseStats: {hp: 80, atk: 50, def: 63, spa: 90, spd: 95, spe: 122},
+	abilities: {0: "Drizzle", H: "Cloud Nine"},
+	heightm: 1.0,
+	weightkg: 2.0,
+	color: "White",
+	gender: "F",
+	eggGroups: ["Human-Like"],
+},

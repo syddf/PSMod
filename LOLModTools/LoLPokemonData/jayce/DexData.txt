@@ -1,0 +1,12 @@
+{
+	num: 2011,
+	name: "Jayce",
+	types: ["Fighting", "Electric"],
+	baseStats: {hp: 86, atk: 134, def: 77, spa: 50, spd: 60, spe: 93},
+	abilities: {0: "Electric Surge", H: "Scrappy"},
+	heightm: 1.0,
+	weightkg: 2.0,
+	color: "White",
+	gender: "M",
+	eggGroups: ["Human-Like"],
+},

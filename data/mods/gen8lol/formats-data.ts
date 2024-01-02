@@ -62,11 +62,31 @@ export const FormatsData: {[k: string]: ModdedSpeciesFormatsData} = {
 		isNonstandard: "GEN8LOL",
 		tier: "OU",
 },
+	aurelionsol:{
+		isNonstandard: "GEN8LOL",
+		tier: "OU",
+},
 	darius:{
 		isNonstandard: "GEN8LOL",
 		tier: "OU",
 },
+	ezreal:{
+		isNonstandard: "GEN8LOL",
+		tier: "OU",
+},
+	janna:{
+		isNonstandard: "GEN8LOL",
+		tier: "OU",
+},
 	jarvaniv:{
+		isNonstandard: "GEN8LOL",
+		tier: "OU",
+},
+	jayce:{
+		isNonstandard: "GEN8LOL",
+		tier: "OU",
+},
+	jinx:{
 		isNonstandard: "GEN8LOL",
 		tier: "OU",
 },
@@ -75,6 +95,14 @@ export const FormatsData: {[k: string]: ModdedSpeciesFormatsData} = {
 		tier: "OU",
 },
 	lux:{
+		isNonstandard: "GEN8LOL",
+		tier: "OU",
+},
+	malphite:{
+		isNonstandard: "GEN8LOL",
+		tier: "OU",
+},
+	seraphine:{
 		isNonstandard: "GEN8LOL",
 		tier: "OU",
 },
@@ -87,6 +115,10 @@ export const FormatsData: {[k: string]: ModdedSpeciesFormatsData} = {
 		tier: "OU",
 },
 	syndra:{
+		isNonstandard: "GEN8LOL",
+		tier: "OU",
+},
+	zyra:{
 		isNonstandard: "GEN8LOL",
 		tier: "OU",
 },

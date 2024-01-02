@@ -1,0 +1,12 @@
+{
+	num: 2009,
+	name: "Ezreal",
+	types: ["Electric", "Fire"],
+	baseStats: {hp: 80, atk: 120, def: 65, spa: 110, spd: 53, spe: 122},
+	abilities: {0: "Motor Drive", H: "Unburden"},
+	heightm: 1.0,
+	weightkg: 2.0,
+	color: "White",
+	gender: "M",
+	eggGroups: ["Human-Like"],
+},

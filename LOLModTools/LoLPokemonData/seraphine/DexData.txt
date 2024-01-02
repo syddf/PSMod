@@ -1,0 +1,12 @@
+{
+	num: 2010,
+	name: "Seraphine",
+	types: ["Water", "Psychic"],
+	baseStats: {hp: 65, atk: 50, def: 65, spa: 120, spd: 120, spe: 80},
+	abilities: {0: "Psychic Surge", H: "Liquid Voice"},
+	heightm: 1.0,
+	weightkg: 2.0,
+	color: "White",
+	gender: "F",
+	eggGroups: ["Human-Like"],
+},

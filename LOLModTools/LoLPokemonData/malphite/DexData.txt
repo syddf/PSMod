@@ -1,0 +1,12 @@
+{
+	num: 2015,
+	name: "Malphite",
+	types: ["Rock", "Ground"],
+	baseStats: {hp: 140, atk: 90, def: 110, spa: 60, spd: 60, spe: 40},
+	abilities: {0: "Solid Rock", H: "Shell Armor"},
+	heightm: 1.0,
+	weightkg: 2.0,
+	color: "White",
+	gender: "N",
+	eggGroups: ["Human-Like"],
+},

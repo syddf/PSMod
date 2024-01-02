@@ -17,7 +17,7 @@
 			aurasphere: ["8M"],			
 			protect: ["8M"],		
 			partingshot: ["8M"],			
-			coaching: ["8M"],			
+			swagger: ["8M"],			
 			finalgambit: ["8M"],			
 			closecombat: ["8M"],
 			taunt: ["8M"],

@@ -18,7 +18,7 @@
 			protect: ["8M"],		
 			foulplay: ["8M"],			
 			bulkup: ["8M"],			
-			bodypress: ["8M"],			
+			spikes: ["8M"],			
 			nastyplot: ["8M"],
 			thunderwave: ["8M"],
 			toxic: ["8M"],

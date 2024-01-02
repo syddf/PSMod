@@ -3,7 +3,7 @@
 	name: "Ahri",
 	types: ["Fairy"],
 	baseStats: {hp: 100, atk: 90, def: 50, spa: 115, spd: 70, spe: 125},
-	abilities: {0: "Cute Charm", H: "Super Luck"},
+	abilities: {0: "Cute Charm", H: "Misty Surge"},
 	heightm: 1.0,
 	weightkg: 2.0,
 	color: "White",

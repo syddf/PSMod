@@ -1,0 +1,12 @@
+{
+	num: 2014,
+	name: "Zyra",
+	types: ["Grass", "Fairy"],
+	baseStats: {hp: 80, atk: 50, def: 80, spa: 125, spd: 95, spe: 70},
+	abilities: {0: "Flower Veil", H: "Flower Gift"},
+	heightm: 1.0,
+	weightkg: 2.0,
+	color: "White",
+	gender: "F",
+	eggGroups: ["Human-Like"],
+},

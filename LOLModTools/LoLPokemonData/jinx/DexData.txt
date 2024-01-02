@@ -1,0 +1,12 @@
+{
+	num: 2012,
+	name: "JinX",
+	types: ["Flying", "Fire"],
+	baseStats: {hp: 80, atk: 140, def: 58, spa: 50, spd: 60, spe: 112},
+	abilities: {0: "Prankster", H: "Contrary"},
+	heightm: 1.0,
+	weightkg: 2.0,
+	color: "White",
+	gender: "F",
+	eggGroups: ["Human-Like"],
+},

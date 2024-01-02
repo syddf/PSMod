@@ -1,0 +1,4 @@
+{
+		isNonstandard: "GEN8LOL",
+		tier: "OU",
+},

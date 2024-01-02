@@ -19755,6 +19755,18 @@ export const Pokedex: {[speciesid: string]: SpeciesData} = {
 	color: "White",
 	eggGroups: ["Human-Like"],
 },
+	syndra:{
+	num: 2002,
+	name: "Syndra",
+	types: ["Dark", "Psychic"],
+	baseStats: {hp: 80, atk: 50, def: 55, spa: 140, spd: 100, spe: 75},
+	abilities: {0: "Dark Aura", H: "Levitate"},
+	heightm: 1.0,
+	weightkg: 2.0,
+	color: "White",
+	gender: "F",
+	eggGroups: ["Human-Like"],
+},
 	//LOLDATA
 
 };

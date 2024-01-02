@@ -9,6 +9,8 @@ abilityDic = {
     'SuperLuck' : '超幸运',
     'Protean' : '变换自如',
     'Technician' : '技术高手',
+    'DarkAura' : '暗黑气场',
+    'Levitate' : '飘浮'
 }
 
 movDic = {
@@ -58,7 +60,17 @@ movDic = {
     'uturn' : '急速折返',
     'acrobatics' : '杂技',
     'agility' : '高速移动',
-    'appleacid' : '苹果酸'
+    'appleacid' : '苹果酸',
+    'darkpulse' : '恶之波动',
+    'nightdaze' : '暗黑爆破',
+    'futuresight' : '预知未来',
+    'extrasensory' : '神通力',
+    'calmmind' : '冥想',
+    'psychicterrain' : '精神场地',
+    'speedswap' : '速度互换',
+    'skillswap' : '特性互换',
+    'imprison' : '封印',
+    'painsplit' : '分担痛楚'
 }
 
 directory = os.getcwd()
@@ -98,7 +110,7 @@ with open(PSServerRootPath + '\\data\\moves.ts', 'r') as f:
 
 for move, moveCN in movDic.items():
     moveInd = moves.find(move + ': {')
-    typeInd = moves.find("type:", moveInd)
+    typeInd = moves.find("type: \"", moveInd)
     typeValueInd = moves.find("\"", typeInd)
     typeValueEndInd = moves.find("\"", typeValueInd + 1)
     moveTypeDic[move] = moves[typeValueInd + 1:typeValueEndInd]

@@ -6060,5 +6060,9 @@ export const FormatsData: {[k: string]: SpeciesFormatsData} = {
 		isNonstandard: "GEN8LOL",
 		tier: "Illegal",
 	},
+	syndra:{
+		isNonstandard: "GEN8LOL",
+		tier: "Illegal",
+	},
 	//LOLDATA
 };

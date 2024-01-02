@@ -1,0 +1,12 @@
+{
+	num: 2005,
+	name: "JarvanIV",
+	types: ["Rock", "Steel"],
+	baseStats: {hp: 120, atk: 110, def: 100, spa: 50, spd: 40, spe: 80},
+	abilities: {0: "Battle Armor", H: "Steely Spirit"},
+	heightm: 1.0,
+	weightkg: 2.0,
+	color: "White",
+	gender: "M",
+	eggGroups: ["Human-Like"],
+},

@@ -12,7 +12,18 @@ abilityDic = {
     'DarkAura' : '暗黑气场',
     'Levitate' : '飘浮',
     'Simple' : '单纯',
-    'Illuminate': '发光'
+    'Illuminate': '发光',
+    'Adaptability' : '适应力',
+    'InnerFocus' : '精神力',
+    'BattleArmor' : '战斗盔甲',
+    'SteelySpirit' : '钢之意志',
+    'MagicGuard' : '魔法防守',
+    'Regenerator' : '再生力',
+    'Magician' : '魔术师',
+    'Disguise' : '画皮',
+    'Illusion' : '幻觉',
+    'PoisonTouch' : '毒手',
+    'BigPecks' : '健壮胸肌'
 }
 
 movDic = {
@@ -89,6 +100,57 @@ movDic = {
     'steelbeam' : '铁蹄光线',
     'partingshot' : '抛下狠话',
     'foulplay' : '欺诈',
+    'rest' : '睡觉',
+    'trick' : '戏法',
+    'expandingforce' : '广域战力',
+    'psyshock' : '精神冲击',
+    'coaching' : '指导',
+    'finalgambit' : '搏命',
+    'closecombat' : '近身战',
+    'machpunch' : '音速拳',
+    'bulkup' : '健美',
+    'mimic' : '模仿',
+    'copycat' : '仿效',
+    'rockslide' : '岩崩',
+    'sandstorm' : '沙暴',
+    'rocktomb' : '岩石封锁',
+    'stoneedge' : '尖石攻击',
+    'stealthrock' : '隐形岩',
+    'wideguard' : '广域防守',
+    'irondefense' : '铁壁',
+    'sunsteelstrike' : '流星闪冲',
+    'metalburst' : '金属爆炸',
+    'ironhead' : '铁头',
+    'bodypress' : '扑击',
+    'dragondance' : '龙之舞',
+    'breakingswipe' : '广域破坏',
+    'takedown' : '猛撞',
+    'doubleedge' : '舍身冲撞',
+    'flipturn' : '快速折返',
+    'willowisp' : '磷火',
+    'firespin' : '火焰旋涡',
+    'thunderwave' : '电磁波',
+    'toxic' : '剧毒',
+    'recover' : '自我再生',
+    'swagger' : '虚张声势',
+    'followme' : '看我嘛',
+    'scaryface' : '可怕面孔',
+    'burningjealousy' : '妒火',
+    'fireblast' : '大字爆炎',
+    'flameburst' : '烈焰溅射',
+    'flareblitz' : '闪焰冲锋',
+    'blazekick' : '火焰踢',
+    'sunnyday' : '大晴天',
+    'superpower' : '蛮力',
+    'brickbreak' : '劈瓦',
+    'noretreat' : '背水一战',
+    'crosspoison' : '十字毒刃',
+    'slash' : '劈开',
+    'substitute' : '替身',
+    'dualchop' : '二连劈',
+    'dragonclaw' : '龙爪',
+    '' : '',
+
 }
 
 directory = os.getcwd()
@@ -127,7 +189,7 @@ with open(PSServerRootPath + '\\data\\moves.ts', 'r') as f:
     moves = f.read()
 
 for move, moveCN in movDic.items():
-    moveInd = moves.find(move + ': {')
+    moveInd = moves.find('\t' + move + ': {')
     typeInd = moves.find("type: \"", moveInd)
     typeValueInd = moves.find("\"", typeInd)
     typeValueEndInd = moves.find("\"", typeValueInd + 1)

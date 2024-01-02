@@ -6060,7 +6060,27 @@ export const FormatsData: {[k: string]: SpeciesFormatsData} = {
 		isNonstandard: "GEN8LOL",
 		tier: "Illegal",
 	},
+	darius:{
+		isNonstandard: "GEN8LOL",
+		tier: "Illegal",
+	},
+	jarvaniv:{
+		isNonstandard: "GEN8LOL",
+		tier: "Illegal",
+	},
+	leblanc:{
+		isNonstandard: "GEN8LOL",
+		tier: "Illegal",
+	},
 	lux:{
+		isNonstandard: "GEN8LOL",
+		tier: "Illegal",
+	},
+	swain:{
+		isNonstandard: "GEN8LOL",
+		tier: "Illegal",
+	},
+	sylas:{
 		isNonstandard: "GEN8LOL",
 		tier: "Illegal",
 	},

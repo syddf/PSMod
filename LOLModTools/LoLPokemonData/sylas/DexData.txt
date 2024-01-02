@@ -1,0 +1,12 @@
+{
+	num: 2004,
+	name: "Sylas",
+	types: ["Fighting", "Psychic"],
+	baseStats: {hp: 97, atk: 100, def: 70, spa: 118, spd: 70, spe: 95},
+	abilities: {0: "Adaptability", H: "Inner Focus"},
+	heightm: 1.0,
+	weightkg: 2.0,
+	color: "White",
+	gender: "M",
+	eggGroups: ["Human-Like"],
+},

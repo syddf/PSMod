@@ -1,0 +1,12 @@
+{
+	num: 2006,
+	name: "Swain",
+	types: ["Dark", "Fire"],
+	baseStats: {hp: 140, atk: 50, def: 100, spa: 80, spd: 100, spe: 30},
+	abilities: {0: "Magic Guard", H: "Regenerator"},
+	heightm: 1.0,
+	weightkg: 2.0,
+	color: "White",
+	gender: "M",
+	eggGroups: ["Human-Like"],
+},

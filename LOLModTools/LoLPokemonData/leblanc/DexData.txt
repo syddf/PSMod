@@ -1,0 +1,12 @@
+{
+	num: 2007,
+	name: "Leblanc",
+	types: ["Fairy", "Fire"],
+	baseStats: {hp: 60, atk: 50, def: 63, spa: 132, spd: 60, spe: 135},
+	abilities: {0: "Illusion", H: "Magician"},
+	heightm: 1.0,
+	weightkg: 2.0,
+	color: "White",
+	gender: "F",
+	eggGroups: ["Human-Like"],
+},

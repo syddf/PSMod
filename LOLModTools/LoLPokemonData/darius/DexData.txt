@@ -1,0 +1,12 @@
+{
+	num: 2008,
+	name: "Darius",
+	types: ["Fighting", "Fire"],
+	baseStats: {hp: 110, atk: 120, def: 90, spa: 50, spd: 70, spe: 60},
+	abilities: {0: "Poison Touch", H: "BigPecks"},
+	heightm: 1.0,
+	weightkg: 2.0,
+	color: "White",
+	gender: "F",
+	eggGroups: ["Human-Like"],
+},

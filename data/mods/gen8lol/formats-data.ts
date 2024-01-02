@@ -62,7 +62,27 @@ export const FormatsData: {[k: string]: ModdedSpeciesFormatsData} = {
 		isNonstandard: "GEN8LOL",
 		tier: "OU",
 },
+	darius:{
+		isNonstandard: "GEN8LOL",
+		tier: "OU",
+},
+	jarvaniv:{
+		isNonstandard: "GEN8LOL",
+		tier: "OU",
+},
+	leblanc:{
+		isNonstandard: "GEN8LOL",
+		tier: "OU",
+},
 	lux:{
+		isNonstandard: "GEN8LOL",
+		tier: "OU",
+},
+	swain:{
+		isNonstandard: "GEN8LOL",
+		tier: "OU",
+},
+	sylas:{
 		isNonstandard: "GEN8LOL",
 		tier: "OU",
 },

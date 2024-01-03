@@ -1747,7 +1747,7 @@ export class TeamValidator {
 			if (tierSpecies.isNonstandard === 'Gigantamax') {
 				return `${tierSpecies.name} is a placeholder for a Gigantamax sprite, not a real Pokémon. (This message is likely to be a validator bug.)`;
 			}
-			return `${tierSpecies.name} does not exist in this game.`;
+			return `${tierSpecies.name} does not exist in this game. ${nonexistentCheck}`;
 		}
 		if (nonexistentCheck === '') return null;
 

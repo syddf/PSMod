@@ -17,6 +17,13 @@ export const Rulesets: {[k: string]: FormatData} = {
 			'Obtainable', 'Team Preview', 'Sleep Clause Mod', 'Species Clause', 'Nickname Clause', 'Endless Battle Clause', 'HP Percentage Mod', 'Cancel Mod',
 		],
 	},
+	lolmodvgcrule: {
+		effectType: 'ValidatorRule',
+		name: 'LOLModVGCRule',
+		desc: "LOLModVGCRule",
+		ruleset: ['Obtainable', 'Team Preview', 'Species Clause', 'Nickname Clause', 'Item Clause', 'Adjust Level Down = 50', 'Picked Team Size = Auto', 'Cancel Mod'],
+		banlist: [],
+	},
 	standard: {
 		effectType: 'ValidatorRule',
 		name: 'Standard',

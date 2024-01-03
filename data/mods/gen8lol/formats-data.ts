@@ -55,127 +55,127 @@ export const FormatsData: {[k: string]: ModdedSpeciesFormatsData} = {
 	//LOLDATA
 
 	ahri:{
-		isNonstandard: "GEN8LOL",
+		isNonstandard: null,
 		tier: "OU",
 },
 	akali:{
-		isNonstandard: "GEN8LOL",
+		isNonstandard: null,
 		tier: "OU",
 },
 	anivia:{
-		isNonstandard: "GEN8LOL",
+		isNonstandard: null,
 		tier: "OU",
 },
 	ashe:{
-		isNonstandard: "GEN8LOL",
+		isNonstandard: null,
 		tier: "OU",
 },
 	aurelionsol:{
-		isNonstandard: "GEN8LOL",
+		isNonstandard: null,
 		tier: "OU",
 },
 	azir:{
-		isNonstandard: "GEN8LOL",
+		isNonstandard: null,
 		tier: "OU",
 },
 	belveth:{
-		isNonstandard: "GEN8LOL",
+		isNonstandard: null,
 		tier: "OU",
 },
 	darius:{
-		isNonstandard: "GEN8LOL",
+		isNonstandard: null,
 		tier: "OU",
 },
 	evelynn:{
-		isNonstandard: "GEN8LOL",
+		isNonstandard: null,
 		tier: "OU",
 },
 	ezreal:{
-		isNonstandard: "GEN8LOL",
+		isNonstandard: null,
 		tier: "OU",
 },
 	fizz:{
-		isNonstandard: "GEN8LOL",
+		isNonstandard: null,
 		tier: "OU",
 },
 	gwen:{
-		isNonstandard: "GEN8LOL",
+		isNonstandard: null,
 		tier: "OU",
 },
 	janna:{
-		isNonstandard: "GEN8LOL",
+		isNonstandard: null,
 		tier: "OU",
 },
 	jarvaniv:{
-		isNonstandard: "GEN8LOL",
+		isNonstandard: null,
 		tier: "OU",
 },
 	jayce:{
-		isNonstandard: "GEN8LOL",
+		isNonstandard: null,
 		tier: "OU",
 },
 	jinx:{
-		isNonstandard: "GEN8LOL",
+		isNonstandard: null,
 		tier: "OU",
 },
 	kaisa:{
-		isNonstandard: "GEN8LOL",
+		isNonstandard: null,
 		tier: "OU",
 },
 	leblanc:{
-		isNonstandard: "GEN8LOL",
+		isNonstandard: null,
 		tier: "OU",
 },
 	lissandra:{
-		isNonstandard: "GEN8LOL",
+		isNonstandard: null,
 		tier: "OU",
 },
 	lux:{
-		isNonstandard: "GEN8LOL",
+		isNonstandard: null,
 		tier: "OU",
 },
 	malphite:{
-		isNonstandard: "GEN8LOL",
+		isNonstandard: null,
 		tier: "OU",
 },
 	maokai:{
-		isNonstandard: "GEN8LOL",
+		isNonstandard: null,
 		tier: "OU",
 },
 	missfortune:{
-		isNonstandard: "GEN8LOL",
+		isNonstandard: null,
 		tier: "OU",
 },
 	nasus:{
-		isNonstandard: "GEN8LOL",
+		isNonstandard: null,
 		tier: "OU",
 },
 	renekton:{
-		isNonstandard: "GEN8LOL",
+		isNonstandard: null,
 		tier: "OU",
 },
 	ryze:{
-		isNonstandard: "GEN8LOL",
+		isNonstandard: null,
 		tier: "OU",
 },
 	seraphine:{
-		isNonstandard: "GEN8LOL",
+		isNonstandard: null,
 		tier: "OU",
 },
 	swain:{
-		isNonstandard: "GEN8LOL",
+		isNonstandard: null,
 		tier: "OU",
 },
 	sylas:{
-		isNonstandard: "GEN8LOL",
+		isNonstandard: null,
 		tier: "OU",
 },
 	syndra:{
-		isNonstandard: "GEN8LOL",
+		isNonstandard: null,
 		tier: "OU",
 },
 	zyra:{
-		isNonstandard: "GEN8LOL",
+		isNonstandard: null,
 		tier: "OU",
 },
 	//LOLDATA

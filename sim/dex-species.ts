@@ -503,6 +503,13 @@ export class DexSpecies {
 					species.tier = species.doublesTier = species.natDexTier = 'Illegal';
 				}
 			}
+			if (this.dex.currentMod === 'gen8lol') {
+				if (species.num < 2000)
+				{
+					species.isNonstandard = 'Future';
+					species.tier = species.doublesTier = species.natDexTier = 'Illegal';
+				}
+			}
 			species.nfe = species.evos.some(evo => {
 				const evoSpecies = this.get(evo);
 				return !evoSpecies.isNonstandard ||

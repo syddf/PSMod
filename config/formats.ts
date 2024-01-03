@@ -31,8 +31,8 @@ export const Formats: FormatList = [
 
 		mod: 'gen8lol',
 		searchShow: false,
-		ruleset: ['Standard', 'Evasion Abilities Clause'],
-		banlist: ['Uber', 'Arena Trap', 'Drizzle', 'Moody', 'Shadow Tag', 'King\'s Rock', 'Razor Fang', 'Baton Pass'],
+		ruleset: ['LOLModRule'],
+		banlist: [],
 	},
 	// S/V Singles
 	///////////////////////////////////////////////////////////////////

@@ -62,7 +62,23 @@ export const FormatsData: {[k: string]: ModdedSpeciesFormatsData} = {
 		isNonstandard: "GEN8LOL",
 		tier: "OU",
 },
+	anivia:{
+		isNonstandard: "GEN8LOL",
+		tier: "OU",
+},
+	ashe:{
+		isNonstandard: "GEN8LOL",
+		tier: "OU",
+},
 	aurelionsol:{
+		isNonstandard: "GEN8LOL",
+		tier: "OU",
+},
+	azir:{
+		isNonstandard: "GEN8LOL",
+		tier: "OU",
+},
+	belveth:{
 		isNonstandard: "GEN8LOL",
 		tier: "OU",
 },
@@ -70,7 +86,19 @@ export const FormatsData: {[k: string]: ModdedSpeciesFormatsData} = {
 		isNonstandard: "GEN8LOL",
 		tier: "OU",
 },
+	evelynn:{
+		isNonstandard: "GEN8LOL",
+		tier: "OU",
+},
 	ezreal:{
+		isNonstandard: "GEN8LOL",
+		tier: "OU",
+},
+	fizz:{
+		isNonstandard: "GEN8LOL",
+		tier: "OU",
+},
+	gwen:{
 		isNonstandard: "GEN8LOL",
 		tier: "OU",
 },
@@ -90,7 +118,15 @@ export const FormatsData: {[k: string]: ModdedSpeciesFormatsData} = {
 		isNonstandard: "GEN8LOL",
 		tier: "OU",
 },
+	kaisa:{
+		isNonstandard: "GEN8LOL",
+		tier: "OU",
+},
 	leblanc:{
+		isNonstandard: "GEN8LOL",
+		tier: "OU",
+},
+	lissandra:{
 		isNonstandard: "GEN8LOL",
 		tier: "OU",
 },
@@ -99,6 +135,26 @@ export const FormatsData: {[k: string]: ModdedSpeciesFormatsData} = {
 		tier: "OU",
 },
 	malphite:{
+		isNonstandard: "GEN8LOL",
+		tier: "OU",
+},
+	maokai:{
+		isNonstandard: "GEN8LOL",
+		tier: "OU",
+},
+	missfortune:{
+		isNonstandard: "GEN8LOL",
+		tier: "OU",
+},
+	nasus:{
+		isNonstandard: "GEN8LOL",
+		tier: "OU",
+},
+	renekton:{
+		isNonstandard: "GEN8LOL",
+		tier: "OU",
+},
+	ryze:{
 		isNonstandard: "GEN8LOL",
 		tier: "OU",
 },

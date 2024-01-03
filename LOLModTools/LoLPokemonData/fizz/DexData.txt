@@ -1,0 +1,12 @@
+{
+	num: 2023,
+	name: "Fizz",
+	types: ["Water", "Fighting"],
+	baseStats: {hp: 65, atk: 110, def: 95, spa: 50, spd: 85, spe: 145},
+	abilities: {0: "Swift Swim", H: "Hustle"},
+	heightm: 1.0,
+	weightkg: 2.0,
+	color: "White",
+	gender: "N",
+	eggGroups: ["Human-Like"],
+},

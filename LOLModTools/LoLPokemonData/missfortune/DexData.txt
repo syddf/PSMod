@@ -1,0 +1,12 @@
+{
+	num: 2024,
+	name: "MissFortune",
+	types: ["Water", "Fire"],
+	baseStats: {hp: 93, atk: 125, def: 75, spa: 50, spd: 72, spe: 85},
+	abilities: {0: "Super Luck", H: "Speed Boost"},
+	heightm: 1.0,
+	weightkg: 2.0,
+	color: "White",
+	gender: "F",
+	eggGroups: ["Human-Like"],
+},

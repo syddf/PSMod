@@ -1,0 +1,12 @@
+{
+	num: 2026,
+	name: "Maokai",
+	types: ["Ghost", "Grass"],
+	baseStats: {hp: 135, atk: 50, def: 115, spa: 60, spd: 100, spe: 40},
+	abilities: {0: "Grassy Surge", H: "Intimidate"},
+	heightm: 1.0,
+	weightkg: 2.0,
+	color: "White",
+	gender: "N",
+	eggGroups: ["Human-Like"],
+},

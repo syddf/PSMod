@@ -1,0 +1,12 @@
+{
+	num: 2017,
+	name: "Azir",
+	types: ["Ground", "Flying"],
+	baseStats: {hp: 80, atk: 50, def: 70, spa: 138, spd: 60, spe: 102},
+	abilities: {0: "Sand Stream", H: "Sand Veil"},
+	heightm: 1.0,
+	weightkg: 2.0,
+	color: "White",
+	gender: "M",
+	eggGroups: ["Human-Like"],
+},

@@ -1,0 +1,12 @@
+{
+	num: 2019,
+	name: "Nasus",
+	types: ["Ground", "Psychic"],
+	baseStats: {hp: 107, atk: 106, def: 88, spa: 104, spd: 103, spe: 42},
+	abilities: {0: "Sand Force", H: "Stakeout"},
+	heightm: 1.0,
+	weightkg: 2.0,
+	color: "White",
+	gender: "M",
+	eggGroups: ["Human-Like"],
+},

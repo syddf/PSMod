@@ -1,0 +1,12 @@
+{
+	num: 2030,
+	name: "Ryze",
+	types: ["Normal"],
+	baseStats: {hp: 100, atk: 100, def: 100, spa: 100, spd: 100, spe: 100},
+	abilities: {0: "Libero", H: "Anticipation"},
+	heightm: 1.0,
+	weightkg: 2.0,
+	color: "White",
+	gender: "M",
+	eggGroups: ["Human-Like"],
+},

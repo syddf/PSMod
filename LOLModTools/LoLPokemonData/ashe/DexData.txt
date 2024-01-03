@@ -1,0 +1,12 @@
+{
+	num: 2021,
+	name: "Ashe",
+	types: ["Ice"],
+	baseStats: {hp: 80, atk: 128, def: 65, spa: 50, spd: 67, spe: 110},
+	abilities: {0: "Slush Rush", H: "Unburden"},
+	heightm: 1.0,
+	weightkg: 2.0,
+	color: "White",
+	gender: "F",
+	eggGroups: ["Human-Like"],
+},

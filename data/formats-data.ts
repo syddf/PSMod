@@ -6060,7 +6060,23 @@ export const FormatsData: {[k: string]: SpeciesFormatsData} = {
 		isNonstandard: "GEN8LOL",
 		tier: "Illegal",
 	},
+	anivia:{
+		isNonstandard: "GEN8LOL",
+		tier: "Illegal",
+	},
+	ashe:{
+		isNonstandard: "GEN8LOL",
+		tier: "Illegal",
+	},
 	aurelionsol:{
+		isNonstandard: "GEN8LOL",
+		tier: "Illegal",
+	},
+	azir:{
+		isNonstandard: "GEN8LOL",
+		tier: "Illegal",
+	},
+	belveth:{
 		isNonstandard: "GEN8LOL",
 		tier: "Illegal",
 	},
@@ -6068,7 +6084,19 @@ export const FormatsData: {[k: string]: SpeciesFormatsData} = {
 		isNonstandard: "GEN8LOL",
 		tier: "Illegal",
 	},
+	evelynn:{
+		isNonstandard: "GEN8LOL",
+		tier: "Illegal",
+	},
 	ezreal:{
+		isNonstandard: "GEN8LOL",
+		tier: "Illegal",
+	},
+	fizz:{
+		isNonstandard: "GEN8LOL",
+		tier: "Illegal",
+	},
+	gwen:{
 		isNonstandard: "GEN8LOL",
 		tier: "Illegal",
 	},
@@ -6088,7 +6116,15 @@ export const FormatsData: {[k: string]: SpeciesFormatsData} = {
 		isNonstandard: "GEN8LOL",
 		tier: "Illegal",
 	},
+	kaisa:{
+		isNonstandard: "GEN8LOL",
+		tier: "Illegal",
+	},
 	leblanc:{
+		isNonstandard: "GEN8LOL",
+		tier: "Illegal",
+	},
+	lissandra:{
 		isNonstandard: "GEN8LOL",
 		tier: "Illegal",
 	},
@@ -6097,6 +6133,26 @@ export const FormatsData: {[k: string]: SpeciesFormatsData} = {
 		tier: "Illegal",
 	},
 	malphite:{
+		isNonstandard: "GEN8LOL",
+		tier: "Illegal",
+	},
+	maokai:{
+		isNonstandard: "GEN8LOL",
+		tier: "Illegal",
+	},
+	missfortune:{
+		isNonstandard: "GEN8LOL",
+		tier: "Illegal",
+	},
+	nasus:{
+		isNonstandard: "GEN8LOL",
+		tier: "Illegal",
+	},
+	renekton:{
+		isNonstandard: "GEN8LOL",
+		tier: "Illegal",
+	},
+	ryze:{
 		isNonstandard: "GEN8LOL",
 		tier: "Illegal",
 	},

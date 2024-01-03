@@ -1,0 +1,12 @@
+{
+	num: 2029,
+	name: "Evelynn",
+	types: ["Dark", "Fairy"],
+	baseStats: {hp: 87, atk: 50, def: 60, spa: 130, spd: 40, spe: 133},
+	abilities: {0: "Cute Charm", H: "Unburden"},
+	heightm: 1.0,
+	weightkg: 2.0,
+	color: "White",
+	gender: "F",
+	eggGroups: ["Human-Like"],
+},

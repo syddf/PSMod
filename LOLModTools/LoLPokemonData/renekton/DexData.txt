@@ -1,0 +1,12 @@
+{
+	num: 2018,
+	name: "Renekton",
+	types: ["Ground", "Fighting"],
+	baseStats: {hp: 110, atk: 110, def: 110, spa: 50, spd: 33, spe: 97},
+	abilities: {0: "Drought", H: "Sand Rush"},
+	heightm: 1.0,
+	weightkg: 2.0,
+	color: "White",
+	gender: "M",
+	eggGroups: ["Human-Like"],
+},

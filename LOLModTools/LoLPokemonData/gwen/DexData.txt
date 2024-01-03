@@ -1,0 +1,12 @@
+{
+	num: 2025,
+	name: "Gwen",
+	types: ["Ghost", "Steel"],
+	baseStats: {hp: 90, atk: 50, def: 75, spa: 138, spd: 72, spe: 75},
+	abilities: {0: "Mirror Armor", H: "Mold Breaker"},
+	heightm: 1.0,
+	weightkg: 2.0,
+	color: "White",
+	gender: "F",
+	eggGroups: ["Human-Like"],
+},

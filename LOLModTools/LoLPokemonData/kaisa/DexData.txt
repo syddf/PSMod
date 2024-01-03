@@ -1,0 +1,12 @@
+{
+	num: 2027,
+	name: "Kaisa",
+	types: ["Poison", "Flying"],
+	baseStats: {hp: 84, atk: 128, def: 47, spa: 125, spd: 40, spe: 126},
+	abilities: {0: "Corrosion", H: "Weak Armor"},
+	heightm: 1.0,
+	weightkg: 2.0,
+	color: "White",
+	gender: "F",
+	eggGroups: ["Human-Like"],
+},

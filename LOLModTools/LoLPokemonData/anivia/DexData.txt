@@ -1,0 +1,12 @@
+{
+	num: 2022,
+	name: "Anivia",
+	types: ["Ice", "Flying"],
+	baseStats: {hp: 125, atk: 50, def: 67, spa: 135, spd: 93, spe: 40},
+	abilities: {0: "Snow Cloak", H: "Ice Scales"},
+	heightm: 1.0,
+	weightkg: 2.0,
+	color: "White",
+	gender: "N",
+	eggGroups: ["Human-Like"],
+},

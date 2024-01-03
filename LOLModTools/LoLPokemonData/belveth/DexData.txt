@@ -1,0 +1,12 @@
+{
+	num: 2028,
+	name: "Belveth",
+	types: ["Poison", "Bug"],
+	baseStats: {hp: 93, atk: 137, def: 54, spa: 50, spd: 76, spe: 90},
+	abilities: {0: "Queenly Majesty", H: "Swarm"},
+	heightm: 1.0,
+	weightkg: 2.0,
+	color: "White",
+	gender: "F",
+	eggGroups: ["Human-Like"],
+},

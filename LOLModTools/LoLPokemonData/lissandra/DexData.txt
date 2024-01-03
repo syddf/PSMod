@@ -1,0 +1,12 @@
+{
+	num: 2020,
+	name: "Lissandra",
+	types: ["Ice", "Dark"],
+	baseStats: {hp: 114, atk: 50, def: 60, spa: 116, spd: 100, spe: 60},
+	abilities: {0: "Snow Warning", H: "Grim Neigh"},
+	heightm: 1.0,
+	weightkg: 2.0,
+	color: "White",
+	gender: "F",
+	eggGroups: ["Human-Like"],
+},

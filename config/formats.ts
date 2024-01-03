@@ -34,7 +34,7 @@ export const Formats: FormatList = [
 		searchShow: true,
 		gameType: 'doubles',
 		challengeShow: false,
-		ruleset: ['lolmodvgcrule', '!! Adjust Level = 50', 'Min Source Gen = 9', 'VGC Timer', 'Force Open Team Sheets'],
+		ruleset: ['lolmodvgcrule', '!! Adjust Level = 50', 'VGC Timer', 'Force Open Team Sheets'],
 		banlist: [],
 	},	
 	// S/V Singles

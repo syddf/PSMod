@@ -9,7 +9,14 @@ export const Rulesets: {[k: string]: FormatData} = {
 
 	// Rulesets
 	///////////////////////////////////////////////////////////////////
-
+	lolmodrule: {
+		effectType: 'ValidatorRule',
+		name: 'LOLModRule',
+		desc: "The LOLModRule",
+		ruleset: [
+			'Obtainable', 'Team Preview', 'Sleep Clause Mod', 'Species Clause', 'Nickname Clause', 'Endless Battle Clause', 'HP Percentage Mod', 'Cancel Mod',
+		],
+	},
 	standard: {
 		effectType: 'ValidatorRule',
 		name: 'Standard',

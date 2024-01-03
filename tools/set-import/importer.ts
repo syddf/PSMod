@@ -155,6 +155,7 @@ function toGen(dex: ModdedDex, name: string): GenerationNum | undefined {
 	if (pokemon.gen) return pokemon.gen as GenerationNum;
 
 	const n = pokemon.num;
+	if (n > 2000) return 8;
 	if (n > 905) return 9;
 	if (n > 810) return 8;
 	if (n > 721) return 7;

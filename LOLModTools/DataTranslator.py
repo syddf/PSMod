@@ -68,7 +68,7 @@ def WriteBaseLearnSetData():
     WriteData(PSServerRootPath + '\\data\\learnsets.ts', content)
 
 def WriteFormatsData():
-    baseFormat = '{\n		isNonstandard: "GEN8LOL",\n		tier: "Illegal",\n	},'
+    baseFormat = '{\n		isNonstandard: null,\n		tier: "Illegal",\n	},'
     fileList, folderList = traverse_files(LoLPokemonDataRootPath, 'Formats.txt')
     baseContent = ''
     modContent = ''

@@ -99580,7 +99580,7 @@ export const Learnsets: {[k: string]: LearnsetData} = {
 			dragonrush: ["8M"],
 			scaleshot: ["8M"],
 			dragonenergy: ["8M"],
-			dracometeor: ["8M"],
+			wish: ["8M"],
 			hurricane: ["8M"],
 			dragondance: ["8M"],
 			fireblast: ["8M"],
